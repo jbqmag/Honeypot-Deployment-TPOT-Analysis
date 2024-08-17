@@ -6,6 +6,7 @@
 - **Identified as**: Potential Spammer, Malicious Entity
 - **Associated Activities**: Spamming, Potential Involvement in Malicious Campaigns
 - **ASN Associated**: Shenzhen Tencent Computer Systems Company Limited
+- **Port(s) Attacked**: 53 DNS
 
 This IP address, originating from China, has been flagged as a high-risk entity due to its involvement in spamming activities and being listed on multiple blocklists. The IP was observed as one of the top attackers in the honeypot, with a significant number of interactions. Reputation analysis on Cisco Talos further confirms that this IP has a poor sender reputation and is likely involved in spam-related activities.
 
