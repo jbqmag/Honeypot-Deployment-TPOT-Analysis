@@ -30,7 +30,7 @@ This IP address, originating from China, has been flagged as a high-risk entity 
    - **Risk**: Moderate to High - The association with other flagged IPs increases the likelihood that this IP is involved in a larger malicious operation.
 
 ### Correlation with Honeypot Data:
-- **Honeypot Activity**: The IP address 43.139.208.95 being from China was one of the more notable attackers, albeit having a lower frequency of attacks compared to other countries. The IP mainly targeted ports associated with common services, such as 8080, 3306, and 8888. The sheer volume (6000+ attacks) of activity suggests that this IP is part of a broader effort to exploit vulnerable services or launch spam-related attacks, perhaps in a joint effort with the multitude of the other machines on the same subnetwork. 
+- **Honeypot Activity**: The IP address 43.139.208.95 being from China was one of the more notable attackers, albeit having a lower frequency of attacks compared to other countries. The IP mainly targeted port 53 which is associated with DNS. The sheer volume (6000+ attacks) of activity suggests that this IP is part of a broader effort to exploit vulnerable services or launch spam-related attacks, perhaps in a joint effort with the multitude of the other machines on the same subnetwork as kibana found that it had correlation with other suspicious ips.
 
 ### Observations:
 1. **Spamming as a Malicious Tactic**: The identification of this IP as a spammer suggests that the attacker may be using spam to distribute malware, phishing links, or other malicious content. This tactic is often employed in broader campaigns aimed at compromising systems or stealing sensitive information.
@@ -38,9 +38,9 @@ This IP address, originating from China, has been flagged as a high-risk entity 
 3. **Blocklist Status**: Being listed on multiple blocklists further underscores the risk posed by this IP and supports the conclusion that it is actively involved in malicious activities.
 
 ### Hypothetical Hardening Considerations:
-1. **Block IP Address**: Given the high volume of attacks and the malicious reputation of this IP, it is recommended to block IP address 43.139.208.95 in firewall configurations to prevent further interactions.
-2. **Monitor for Similar IPs**: Given the broader network of affiliated malicious entities, it is advisable to monitor for similar IP addresses (e.g., within the 43.139.208.x range) and take appropriate action if they are detected.
-3. **Email Security**: Ensure that email security measures are in place, including spam filters, to prevent potential phishing or malware distribution attempts originating from this IP.
+1. **Monitor for Similar IPs**: Given the broader network of affiliated malicious entities, it is advisable to monitor for similar IP addresses (e.g., within the 43.139.208.x range) and take appropriate action if they are detected.
+2. **Email Security**: Ensure that email security measures are in place, including spam filters, to prevent potential phishing or malware distribution attempts originating from this IP.
+3. **Firewall Employment**: this can be fixed by employing a basic firewall and/or firewall rule.
 
 ### Future Considerations:
 - **Investigate Further**: Further investigation into the broader network of IP addresses associated with this entity could provide more insights into the scope and nature of the attack campaign.
