@@ -14,7 +14,7 @@ This project involved deploying a honeypot using [T-Pot](https://github.com/tele
 To get started, you'll need to set up a Linux server in the cloud. For this project, I used **Vultr**, but you can choose any cloud service provider (e.g., AWS, DigitalOcean, Google Cloud). Here’s how I did it:
 - **Sign Up**: Create an account with your chosen cloud provider.
 - **Create a Server**: Deploy a server on the top right and click "deploy new server" when shown the dropdown menu
-  [here](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S1.png)
+  ![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S1.png)
 - **OS/ISO**- use  [T-Pot](https://github.com/telekom-security/tpotce) documentation to see what distros are available and compatible for use. In my case, I used an Ubuntu 22.04 LTS x64 to download tpot.
 - **Server Specifications**: Choose server specifications based on your needs. A basic setup with 4 CPUs and 8 GB RAM is sufficient for running T-Pot. Make sure to select the "regular cloud compute" as this will most likely be enough for your use case of employing the honeypot.
 - **Additional Features** : Disable Auto Backups and IPv6 as this is not necessary for our basic implementation. 
@@ -65,7 +65,7 @@ $ git clone https://github.com/telekom-security/tpotce
 - Notice that if you are to access your attack map, it seems as if there is no traffic coming to your TPOT. What gives? Well, our firewall is still blocking inbound access (as a firewall should do), because of those inbound rules we created that only allowed our host ips into the firewall
 - Similar to the process above, we will be replacing the two defensive firewall rules in order to have, not only us, but suspicious attackers fall for our honeytrap!
 
-![alt text](S4.png)
+![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S4.png)
 *As you can see, we allow TCP and UDP connections from anywhere in the world, a rule for us to access our TPOT remotely ia SSH and our web server on ports 64294 and 64297 respectively.*
 
 
@@ -73,6 +73,6 @@ $ git clone https://github.com/telekom-security/tpotce
 You should now have a fully working and running TPOT service that you just configured! Multiple honeypots will be configured given you have downloaded the service and kept it up and running. The biggest thing to take away from this project is that Cyber Attacks are very much real and can happen all over the world- even to you! Just after running this service for only about a week, I have close to 24 million interactions from attackers all over the globe!
  This is your chance to really dig deep, ask questions, and seek out patterns of what  real world attacks might look like! Feel free to play around with the various tools and perhaps get your hands dirty in a deep dive investigation, perhaps record your findings like i have done! 
 
- ![alt text](S5.png)
+ ![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S5.png)
 
  *Honeytrap dashboard via Kibana, shows the overview of the attacker interactions i get from my TPOT service*
