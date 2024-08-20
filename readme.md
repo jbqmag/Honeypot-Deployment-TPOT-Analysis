@@ -70,8 +70,7 @@ $ git clone https://github.com/telekom-security/tpotce
 
 
 ## Takeaways
-You should now have a fully working and running TPOT service that you just configured! Multiple honeypots will be configured given you have downloaded the service and kept it up and running. The biggest thing to take away from this project is that Cyber Attacks are very much real and can happen all over the world- even to you! Just after running this service for only about a week, I have close to 24 million interactions from attackers all over the globe!
- This is your chance to really dig deep, ask questions, and seek out patterns of what  real world attacks might look like! Feel free to play around with the various tools and perhaps get your hands dirty in a deep dive investigation, perhaps record your findings like i have done! 
+You should now have a fully operational TPOT service, configured to deploy multiple honeypots. This project highlights the very real and pervasive threat of cyber attacks globally. In just one week of running this service, I recorded nearly 24 million interactions from attackers worldwide. This is an opportunity to delve into the data, explore attack patterns, and gain a deeper understanding of real-world threats. I encourage you to experiment with the various tools available, and consider conducting a detailed investigation to document your findings, as I have done. This project not only enhances your technical skills but also offers valuable insights into the nature of cyber threats.
 
  ![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S5.png)
 
