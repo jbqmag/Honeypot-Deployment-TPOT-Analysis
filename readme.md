@@ -14,7 +14,7 @@ This project involved deploying a honeypot using [T-Pot](https://github.com/tele
 To get started, you'll need to set up a Linux server in the cloud. For this project, I used **Vultr**, but you can choose any cloud service provider (e.g., AWS, DigitalOcean, Google Cloud). Here’s how I did it:
 - **Sign Up**: Create an account with your chosen cloud provider.
 - **Create a Server**: Deploy a server on the top right and click "deploy new server" when shown the dropdown menu
-![alt text](S1.png)
+  [here](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S1.png)
 - **OS/ISO**- use  [T-Pot](https://github.com/telekom-security/tpotce) documentation to see what distros are available and compatible for use. In my case, I used an Ubuntu 22.04 LTS x64 to download tpot.
 - **Server Specifications**: Choose server specifications based on your needs. A basic setup with 4 CPUs and 8 GB RAM is sufficient for running T-Pot. Make sure to select the "regular cloud compute" as this will most likely be enough for your use case of employing the honeypot.
 - **Additional Features** : Disable Auto Backups and IPv6 as this is not necessary for our basic implementation. 
