@@ -34,7 +34,7 @@ To get started, you'll need to set up a Linux server in the cloud. For this proj
 ![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S2.png)
 *Click on the settings tab of your virtual machine to navigate to the firewall page. From here you should be seeing this, in which you will click the grey pen in order to add a firewall group.*
 
-![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S3.pn)
+![alt text](https://github.com/jbqmag/Honeypot-Honeytrap-Analysis/blob/main/pngs/S3.png)
 *Click on the settings tab of your virtual machine to navigate to the firewall page. From here you should be seeing this, in which you will click the grey pen in order to add a firewall group.*
 #### b) Download and set up TPOT server to run your very own honeypot: 
 For more specific uidance on installation, please check the installation section on the readme file of the [T-Pot](https://github.com/telekom-security/tpotce) documentation.
